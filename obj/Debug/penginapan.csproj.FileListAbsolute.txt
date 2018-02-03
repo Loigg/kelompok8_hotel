@@ -1,0 +1,56 @@
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\bin\Debug\penginapan.exe
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\bin\Debug\penginapan.pdb
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.exe
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.pdb
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmPenginapan.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.MainForm.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.csproj.GenerateResource.Cache
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmCekIn.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahKamar.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahTamu.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahMenu.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahPesanan.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmCekOut.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmLihatTamu.resources
+C:\Users\FVCK-32\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmLihatTipe.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\bin\Debug\penginapan.exe
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\bin\Debug\penginapan.pdb
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmCekIn.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmCekOut.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmLihatTamu.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmLihatTipe.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmPenginapan.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahKamar.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahMenu.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahPesanan.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.FrmTambahTamu.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.MainForm.resources
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.csproj.GenerateResource.Cache
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.exe
+C:\Users\LUMBUNG\Documents\SharpDevelop Projects\penginapan\obj\Debug\penginapan.pdb
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.exe
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.pdb
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.csprojResolveAssemblyReference.cache
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmCekIn.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmCekOut.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmLihatTamu.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmLihatTipe.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmPenginapan.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmTambahKamar.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmTambahMenu.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmTambahPesanan.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.FrmTambahTamu.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.MainForm.resources
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.csproj.GenerateResource.Cache
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\penginapan.exe
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\penginapan.pdb
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\L\Videos\penginapan\penginapan\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\L\Videos\penginapan\penginapan\obj\Debug\penginapan.Properties.Resources.resources

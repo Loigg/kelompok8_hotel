@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{25BC5D75-BDA8-4BD5-8832-197FCAFA5980}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>penginapan</RootNamespace>
+    <AssemblyName>penginapan</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.5.2</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.5\Assemblies\v4.5.2.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.5\Assemblies\v4.5.2.2\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.5\Assemblies\v4.5.2.2\MySQL.Data.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore.Design">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.5\Assemblies\v4.5.2.2\MySQL.Data.EntityFrameworkCore.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.10.5\Assemblies\v4.5.2.2\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.5.2</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.5.2</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.5.2</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmCekIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCekIn.Designer.cs">
+      <DependentUpon>FrmCekIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCekOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCekOut.Designer.cs">
+      <DependentUpon>FrmCekOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLihatTamu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLihatTamu.Designer.cs">
+      <DependentUpon>FrmLihatTamu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLihatTipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLihatTipe.Designer.cs">
+      <DependentUpon>FrmLihatTipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPenginapan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPenginapan.Designer.cs">
+      <DependentUpon>FrmPenginapan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTambahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTambahKamar.Designer.cs">
+      <DependentUpon>FrmTambahKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTambahMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTambahMenu.Designer.cs">
+      <DependentUpon>FrmTambahMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTambahPesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTambahPesanan.Designer.cs">
+      <DependentUpon>FrmTambahPesanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTambahTamu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTambahTamu.Designer.cs">
+      <DependentUpon>FrmTambahTamu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmCekIn.resx">
+      <DependentUpon>FrmCekIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCekOut.resx">
+      <DependentUpon>FrmCekOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLihatTamu.resx">
+      <DependentUpon>FrmLihatTamu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLihatTipe.resx">
+      <DependentUpon>FrmLihatTipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPenginapan.resx">
+      <DependentUpon>FrmPenginapan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTambahKamar.resx">
+      <DependentUpon>FrmTambahKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTambahMenu.resx">
+      <DependentUpon>FrmTambahMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTambahPesanan.resx">
+      <DependentUpon>FrmTambahPesanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTambahTamu.resx">
+      <DependentUpon>FrmTambahTamu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.4.5.2">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 4.5.2 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.4.5.2.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 4.5.2 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>
